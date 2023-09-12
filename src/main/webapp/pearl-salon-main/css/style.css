@@ -1,0 +1,142 @@
+
+@charset "ISO-8859-1";
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: gray;
+    color: black;
+    padding: 6rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aqua;
+}
+
+main {
+    padding: 12em;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: orange;
+    text-align: center;
+    padding: 5rem;
+}
+
+/* Neue CSS-Regeln für die Seite */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: gray;
+    color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: calc(25% - 1rem);
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: orange;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex-basis: 20%;
+    padding: 1rem;
+    text-align: left;
+}
+
+.footer-column h4 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: orange;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/netflix_PNG15.png" />
+    <link rel="stylesheet" href="../css/home-user.css">
+    <link rel="stylesheet" href="../css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+    <header>
+        <img src="../img/netflix-logo.png" alt="Logo">
+
+        <nav>
+            <ul class="menu-nav">
+                <li>
+                    <a>Browse <i class="fas fa-sort-down"></i></a>
+
+                    <ul class="submenu">
+                        <li><a href="#video-background">Home</a></li>
+                        <li><a href="#original">TV Shows</a></li>
+                        <li><a href="#original">Movies</a></li>
+                        <li><a href="#trendingSection">Trending</a></li>
+                        <li><a href="../jsp/myliste.jsp">My List</a></li>
+                        <li><a href="#continue">Watch Again</a></li>
+                    </ul> 
+
+                </li>
+                <li><a href="#video-background">Home</a></li>
+                <li><a href="#original">TV Shows</a></li>
+                <li><a href="#original">Movies</a></li>
+                <li><a href="#trendingSection">Trending</a></li>
+                <li><a href="../jsp/myliste.jsp">My List</a></li>
+                <li><a href="#continue">Watch Again</a></li>
+            </ul>
+        </nav>
+
+        <ul class="menu-icons">
+            <li><img src="../img/search.png" class="icons"></li>
+            <li><a href="">KIDS</a></li>
+            <li><img src="../img/gift.png" class="icons"></li>
+            <li><img src="../img/bell.png" class="icons"></li>
+            <li><a href="../jsp/user.html"> <img src="../img/profil/profile01.png" class="icons"></a></li>
+        </ul>
+
+    </header>
+
+    <main>
+        <div class="container">
+        <!-- background video -->
+        <video autoplay muted loop id="video-background">
+        <source src="../img/avenger_video.mp4" type="video/mp4">
+        </video>
+         <div class="overlay"></div>
+            <div class="movie-main">
+                <img src="../img/filmLogo/endgame1_marvel_disney.png" alt="">
+                <p>The Freeza Saga is the second main arc of the anime Dragon Ball Z.
+                    The main plot is the long-awaited fight between Goku and Freeza.</p>
+            </div>
+            
+            <div class="buttons">
+              <a href="../html/player.html">  
+              	<button class="btn play">
+                    <i class="fas fa-play"></i>
+                    Play
+                </button>
+			 </a>
+                <button class="btn info">
+                    <i class="fas fa-info-circle"></i>
+                    More Information
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="carousel-movies">
+            <div class="container-movies">
+                <h2>Continue Watching as Junie Merveille</h2>
+                <div class="owl-carousel owl-theme" id="continue"></div>
+            </div>
+
+            <div class="container-movies">
+                <h2>Trending</h2>
+                <div class="owl-carousel owl-theme" id="trendingSection"></div>
+            </div>
+
+            <div class="container-movies">
+                <h2>Because You Watched Fullmetal Alchemist</h2>
+                <div class="owl-carousel owl-theme" id="becauseWatched"></div>
+            </div>
+
+            <div class="container-movies">
+                <h2>Netflix Originals</h2>
+                <div class="owl-carousel owl-theme" id="original"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+            <div class="social-media">
+                <img src="../img/fb.png" alt="">
+                <img src="../img/instagram.png" alt="">
+                <img src="../img/twitter.png" alt="">
+                <img src="../img/youtube.png" alt="">
+
+            </div>
+
+            <ul class="lists">
+                <li>Language and Subtitles</li>
+                <li>Audio Description</li>
+                <li>Help Center</li>
+                <li>Gift Cards</li>
+                <li>Press</li>
+                <li>Investor Relations</li>
+                <li>Careers</li>
+                <li>Terms of Use</li>
+                <li>Privacy</li>
+                <li>Legal Notices</li>
+                <li>Cookie Preferences</li>
+                <li>Corporate Information</li>
+                <li>Contact Us</li>
+            </ul>
+
+            <a>Service Code</a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="../js/owl/jquery.min.js"></script>
+    <script src="../js/owl/owl.carousel.min.js"></script>
+    <script src="../js/home.js"></script>
+</body>
+</html>

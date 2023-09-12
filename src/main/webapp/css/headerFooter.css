@@ -1,0 +1,149 @@
+@charset "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  z-index: 10;
+}
+
+.navbar__brand {
+  width: 100px;
+  height: 100%;
+}
+
+.brand__logo {
+  width: 100%;
+  height: 100%;
+}
+
+.language__drop__down {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.language__drop__down:focus {
+  outline: none;
+}
+
+.language__drop__down option {
+  background-color: black;
+}
+
+.dropdown__container {
+  border: 1px solid white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.signin__button {
+  background-color: #dc030f;
+  border: 1px solid #dc030f;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.navbar__nav__items {
+  display: flex;
+  gap: 10px;
+}
+/* abstand zum contenair*/
+header{
+	margin-bottom: 10%;
+}
+
+footer {
+  border-top: 8px solid #333;
+  padding: 2rem 1rem;
+  bottom:0px;
+  color: #757575;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__row__2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.footer__row__1 > h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer__row__3 > .dropdown__container {
+  width: fit-content;
+  border: 1px solid #757575;
+  color: #757575;
+}
+
+.footer__row__3 > .dropdown__container > .language__drop__down {
+  color: #757575;
+}
+
+
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 2% 5%;
+  }
+
+  .navbar__brand {
+    width: 150px;
+  }
+
+  .signin__button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  .dropdown__container {
+    padding: 10px 5px;
+  }
+
+  .navbar__nav__items {
+    gap: 30px;
+  }
+
+  
+  footer {
+    padding: 2rem 20rem;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .footer__row__2 {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .footer__row__1,
+  .footer__row__3,
+  .footer__row__4 {
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 454px) {
+	
+}
